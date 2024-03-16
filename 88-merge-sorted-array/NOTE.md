@@ -1,5 +1,4 @@
-We start from last of nums1 array
-We will have 3 pointer: 
+We start from last of `nums1` array. We will have 3 pointer: 
 - The `last` point to last of nums1 array. This pointer is where we will put the value into. It's value should be `m + n -1`
 - The `i` point to the last member of `nums1` array. Here it's value should be `m - 1`
 - The `j` point to the last member of `nums2` array. Here it's value should be `n - 1`
