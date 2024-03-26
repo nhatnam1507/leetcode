@@ -3,11 +3,9 @@ func removeDuplicates(nums []int) int {
         return 0
     }
     k := 1
-    pivot := nums[0]
     for _, num := range nums {
-        if num != pivot {
+        if num != nums[k - 1] {
             nums[k] = num
-            pivot = num
             k++
         }
     }
